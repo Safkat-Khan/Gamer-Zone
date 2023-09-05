@@ -2,32 +2,32 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: 0;
 }
-.nav-container{
-    width: 1140px;
-    margin: 0 auto;
+.nav-container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .nav-tittle {
   display: flex;
   align-items: center;
-  padding:0 10px;
+  padding: 0 10px;
 }
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
 }
-li{
-    list-style: none;
-    margin-top: 20px;
+li {
+  list-style: none;
+  margin-top: 20px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .nav-name {
@@ -35,7 +35,6 @@ a{
   font-size: 45px;
   font-weight: 700;
   margin-left: 20px;
-
 }
 
 .basic-color {
@@ -49,22 +48,91 @@ a{
   padding-left: 10px;
 }
 .links {
-    display: flex; 
+  display: flex;
 }
-.social-link{
-    margin-right: 50px;
-    border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-padding: 20px 20px;
+.social-link {
+  margin-right: 50px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px 20px;
+}
+.social-link i {
+  margin-right: 7px;
+}
+span a {
+  margin-right: 7px;
+}
+.header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
 
+/* Banner Section style */
+.banner-container {
+
+  display: flex;
+  width: 100%;
 }
-.social-link i{
-    margin-right:7px ;
+.banner-container img {
+  max-width: 90%;
+  height: auto;
+  height: 100%;
 }
-span a{
-    margin-right:7px ;
+.banner-text {
+  width: 900px;
+  height: 700px;
+  flex-shrink: 0;
+  background-image: url("images/Group\ 14.png");
+  background-repeat: no-repeat;
+  max-height: 50%;
 }
-.header{
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+.banner-text-tittle {
+ padding-top: 50px;
+  color: #0b0223;
+  padding-left: 200px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+.GOAT {
+  padding-left: 190px;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-discription {
+  padding-left: 200px;
+}
+.banner-discription img {
+  padding-right: 10px;
+}
+.banner-discription button{
+margin-top: 30px;
+}
+.sign-in {
+  border-radius: 48px;
+  border: 0;
+  background-color: #ff42a5;
+  padding: 21px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.go-rogue {
+  padding: 21px 40px;
+  border: 0;
+  border-radius: 48px;
+  background: #4ec5f7;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.banner-discription p i{
+padding-right: 10px;
 }
