@@ -79,7 +79,7 @@ span a {
   height: 90%;
 }
 .banner-text {
-    padding-top: 80px;
+  padding-top: 80px;
   width: 900px;
   height: 700px;
   flex-shrink: 0;
@@ -185,9 +185,102 @@ span a {
   font-weight: 500;
 }
 .speach {
-    color: #534C64;
-    text-align: right;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
+  color: #534c64;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* VIDEO SECTION START  */
+.image-section-grid {
+  text-align: center;
+  max-width: 90%;
+  margin: 30px auto;
+  margin-bottom: 30px;
+}
+.image-section-des > h1 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.image-section-des > h1 > span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.image-section-des > h6 {
+  margin-bottom: 20px;
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.image-section {
+  max-width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.img-btn {
+  position: relative;
+}
+.img-item > figcaption {
+  text-align: left;
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img-item1 {
+  border-radius: 10px;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: overlay;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+}
+.img-item1 > span {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-btn:hover .img-item1 {
+  display: block;
+}
+.img-item1 > i {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+.img-item > img {
+  width: 100%;
+}
+.img-btn > img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
