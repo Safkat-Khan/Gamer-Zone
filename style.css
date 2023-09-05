@@ -1,0 +1,70 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+.nav-container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-tittle {
+  display: flex;
+  align-items: center;
+  padding:0 10px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-name {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 20px;
+
+}
+
+.basic-color {
+  color: #ff42a5;
+}
+.text-style {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.links {
+    display: flex; 
+}
+.social-link{
+    margin-right: 50px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 20px 20px;
+
+}
+.social-link i{
+    margin-right:7px ;
+}
+span a{
+    margin-right:7px ;
+}
+.header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
