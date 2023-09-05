@@ -400,7 +400,7 @@ span a {
   flex-direction: column;
 }
 .position-btn {
-    margin-top: 40px;
+  margin-top: 40px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 48px;
@@ -408,8 +408,105 @@ span a {
   display: inline-flex;
   padding: 25px 45px;
   border: 0;
-
   color: #ff42a5;
+}
+/* Game selection section */
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.gamer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.gamer-section .gamer-text {
+    text-align: end;
+}
+.gamer-section .gamer-text p {
+    padding-top: 20px;
+}
+.gamer-section .gamer-text button {
+    margin-top: 20px;
+}
+.gamer-section .gamer-text h4 {
+    font-size: 24px;
+    color: #534c64;
+}
+.games-section {
+    padding: 60px 0;
+}
+.games-section .games {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.games-section .games .game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #ffffff;
+}
+.games-section .games .game:hover {
+    border: 1px solid #f948b2;
+    border-radius: 50px;
+    color: #f948b2;
+}
 
-
+/* FOOTER SECTION START  */
+footer {
+    background-color: #0b0223;
+    padding: 100px 0;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-logo h1 {
+    color: #ffffff;
+}
+footer nav {
+    padding: 30px 0;
+}
+footer nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer nav ul li {
+    list-style: none;
+}
+footer nav ul a {
+    margin: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+footer .social-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+footer .social-icon i {
+    color: #ffffff;
+    font-size: 40px;
+}
+footer .link {
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 0;
+}
+footer .copyright {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
 }
