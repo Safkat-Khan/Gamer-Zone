@@ -1,0 +1,119 @@
+
+/* Medium Screen */
+
+@media screen and (max-width: 576px) {
+    
+    /* header section  */
+    .nav-tittle {
+        flex-direction: column;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav ul li {
+        padding: 10px 0;
+    }
+    /* banner section  */
+    .banner-section {
+        flex-direction: column;
+    }
+    .banner-section .banner-text {
+        padding: 35px 20px;
+    }
+    .banner-section .banner-text h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .banner-text {
+        order: 2;
+    }
+    .banner-img {
+        order: 1;
+    }
+    /* GAMER SECTION */
+    .gamer-section {
+        flex-direction: column;
+    }
+    .gamer-section img {
+        width: 100%;
+    }
+    .gamer-section .gamer-text {
+        text-align: center;
+    }
+    /* VIDEO SECTION */
+    .videos-section {
+        padding: 40px 25px;
+    }
+    .videos-section .videos {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        padding: 25px;
+    }
+    .videos-section .videos p {
+        text-align: center;
+    }
+    /* PLAY SECTION */
+    .play-section {
+        flex-direction: column;
+    }
+    .play-section .play-text {
+        text-align: center;
+        padding: 10px;
+    }
+    .play-section .play-img {
+        width: 80%;
+    }
+    .play-section .play-img > img {
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .play-section .play-img .mini-img {
+        width: 30%;
+        padding: 40px;
+        margin-left: 80px;
+        margin-top: 120px;
+    }
+
+    /* GAME SECTION  */
+    .games-section {
+        padding: 0;
+    }
+    .games-section .games {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 10px;
+    }
+    .games-section .games .game {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 3px;
+        margin: 5px;
+        border: 1px solid #ffffff;
+    }
+    .games-section .games .game h5 {
+        font-size: 12px;
+    }
+
+    /* FOOTER SECTION  */
+    footer nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    footer .link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 25px;
+    }
+    footer .link p {
+        font-size: 12px;
+        text-align: center;
+    }
+    footer nav ul a {
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
